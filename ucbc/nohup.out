@@ -1,0 +1,55 @@
+/Volumes/BACKUP/development/workspaces/scrapy_workspaces/isbn_automation/isbn_scrapy/ucbc/isbn/spiders/UCBC2_spider.py:6: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+  from scrapy.xlib.pydispatch import dispatcher
+2019-05-08 09:08:43 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: isbn)
+2019-05-08 09:08:43 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Darwin-17.7.0-x86_64-i386-64bit
+2019-05-08 09:08:43 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_START_DELAY': 1, 'BOT_NAME': 'isbn', 'CONCURRENT_REQUESTS': 4, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'DOWNLOAD_TIMEOUT': 10, 'FEED_EXPORT_FIELDS': ['ISBN10', 'title', 'author', 'qty', 'avgPrice', 'lowestPrice', 'lastUpdated'], 'FEED_FORMAT': 'csv', 'FEED_URI': 'UCBC_20190508.csv', 'NEWSPIDER_MODULE': 'isbn.spiders', 'SPIDER_MODULES': ['isbn.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'}
+2019-05-08 09:08:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+/Volumes/BACKUP/development/workspaces/scrapy_workspaces/isbn_automation/isbn_scrapy/ucbc/isbn/spiders/UCBC2_spider.py:6: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+  from scrapy.xlib.pydispatch import dispatcher
+2019-05-08 09:11:42 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: isbn)
+2019-05-08 09:11:42 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Darwin-17.7.0-x86_64-i386-64bit
+2019-05-08 09:11:42 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_START_DELAY': 1, 'BOT_NAME': 'isbn', 'CONCURRENT_REQUESTS': 4, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'DOWNLOAD_TIMEOUT': 10, 'FEED_EXPORT_FIELDS': ['ISBN10', 'title', 'author', 'qty', 'avgPrice', 'lowestPrice', 'lastUpdated'], 'FEED_FORMAT': 'csv', 'FEED_URI': 'UCBC_20190508.csv', 'NEWSPIDER_MODULE': 'isbn.spiders', 'SPIDER_MODULES': ['isbn.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'}
+2019-05-08 09:11:42 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+/Volumes/BACKUP/development/workspaces/scrapy_workspaces/isbn_automation/isbn_scrapy/ucbc/isbn/spiders/UCBC2_spider.py:6: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+  from scrapy.xlib.pydispatch import dispatcher
+2019-05-08 09:15:27 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: isbn)
+2019-05-08 09:15:27 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Darwin-17.7.0-x86_64-i386-64bit
+2019-05-08 09:15:27 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_START_DELAY': 1, 'BOT_NAME': 'isbn', 'CONCURRENT_REQUESTS': 4, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'DOWNLOAD_TIMEOUT': 10, 'FEED_EXPORT_FIELDS': ['ISBN10', 'title', 'author', 'qty', 'avgPrice', 'lowestPrice', 'lastUpdated'], 'FEED_FORMAT': 'csv', 'FEED_URI': 'UCBC_20190508.csv', 'NEWSPIDER_MODULE': 'isbn.spiders', 'SPIDER_MODULES': ['isbn.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'}
+2019-05-08 09:15:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+/Volumes/BACKUP/development/workspaces/scrapy_workspaces/isbn_automation/isbn_scrapy/ucbc/isbn/spiders/UCBC2_spider.py:6: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+  from scrapy.xlib.pydispatch import dispatcher
+2019-05-08 09:16:47 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: isbn)
+2019-05-08 09:16:47 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Darwin-17.7.0-x86_64-i386-64bit
+2019-05-08 09:16:47 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_START_DELAY': 1, 'BOT_NAME': 'isbn', 'CONCURRENT_REQUESTS': 4, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'DOWNLOAD_TIMEOUT': 10, 'FEED_EXPORT_FIELDS': ['ISBN10', 'title', 'author', 'qty', 'avgPrice', 'lowestPrice', 'lastUpdated'], 'FEED_FORMAT': 'csv', 'FEED_URI': 'UCBC_20190508.csv', 'NEWSPIDER_MODULE': 'isbn.spiders', 'SPIDER_MODULES': ['isbn.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'}
+2019-05-08 09:16:47 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+/Volumes/BACKUP/development/workspaces/scrapy_workspaces/isbn_automation/isbn_scrapy/ucbc/isbn/spiders/UCBC2_spider.py:6: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+  from scrapy.xlib.pydispatch import dispatcher
+2019-05-08 09:18:34 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: isbn)
+2019-05-08 09:18:34 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Darwin-17.7.0-x86_64-i386-64bit
+2019-05-08 09:18:34 [scrapy.crawler] INFO: Overridden settings: {'AUTOTHROTTLE_START_DELAY': 1, 'BOT_NAME': 'isbn', 'CONCURRENT_REQUESTS': 4, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'DOWNLOAD_TIMEOUT': 10, 'FEED_EXPORT_FIELDS': ['ISBN10', 'title', 'author', 'qty', 'avgPrice', 'lowestPrice', 'lastUpdated'], 'FEED_FORMAT': 'csv', 'FEED_URI': 'UCBC_20190508.csv', 'NEWSPIDER_MODULE': 'isbn.spiders', 'SPIDER_MODULES': ['isbn.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'}
+2019-05-08 09:18:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
